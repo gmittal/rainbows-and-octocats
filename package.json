@@ -1,0 +1,23 @@
+{
+  "name": "rainbows-and-octocats",
+  "version": "1.0.0",
+  "description": "Rainbows and octocats.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmittal/rainbows-and-octocats"
+  },
+  "author": "Gautam Mittal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmittal/rainbows-and-octocats/issues"
+  },
+  "homepage": "https://github.com/gmittal/rainbows-and-octocats",
+  "dependencies": {
+    "express": "^4.12.3",
+    "request": "^2.53.0"
+  }
+}
