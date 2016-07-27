@@ -4,7 +4,7 @@ var request = require('request');
 
 var port = 6002;
 
-var connect_address = "http://www.gautam.cc:"+port; // for anyone interested in trying this out, change the address from gautam.cc to your server's IP address or domain name
+var connect_address = "http://localhost:"+port; // for anyone interested in trying this out, change the address from gautam.cc to your server's IP address or domain name
 
 var wats = 0;
 var noConnect_wats = 0;
@@ -49,6 +49,6 @@ var server = app.listen(6002, function () {
   var host = server.address().address
   var port = server.address().port
 
-  console.log('App listening at http://%s:%s', host, port)
+  console.log('Troll listening at http://%s:%s', host, port)
 
 })
