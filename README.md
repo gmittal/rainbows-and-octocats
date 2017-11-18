@@ -1,7 +1,5 @@
 # Rainbows and Octocats
-Rainbows and octocats.
-
-What happens when a GET request is made that simply executes another GET request to itself?
+What happens when a GET request is made that simply executes another GET request to itself? It really isn't that exciting.
 
 ### Setup
 Install dependencies from ```package.json```.
